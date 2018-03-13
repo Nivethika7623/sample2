@@ -1,0 +1,5 @@
+x=str(input("Enter the String:"))
+x=x.split()
+x=list(map(lambd x:x.capitalize(),x))
+b=' '.join(x)
+print(b)
