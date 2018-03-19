@@ -1,6 +1,6 @@
-n=int(input())
-m=int(input())
-num = n*m
+n1=int(input())
+m2=int(input())
+num = n1*m1
 if (num % 2) == 0:
    print("{0} is Even".format(num))
 else:
