@@ -1,2 +1,3 @@
-n1,h1=map(int,input().split(' '))
+n1=int(input())
+h1=int(input())
 print(n1%(10**h1))
