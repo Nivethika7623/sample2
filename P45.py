@@ -1,0 +1,14 @@
+a=int(input())
+b=int(input())
+if(a>b):
+    if(b+b<a):
+        print(no)
+    else:
+        print("yes")
+elif(a<b):
+    if(a+a<b):
+        print("no")
+    else:
+        print("yes")
+else:
+    print("no")
