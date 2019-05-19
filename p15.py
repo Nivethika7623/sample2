@@ -14,4 +14,4 @@ def rep(str):
     return res
 if __name__=="__main__":
     str=input()
-    print(rep(str)
+    print(rep(str))
