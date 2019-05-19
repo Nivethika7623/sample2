@@ -2,7 +2,7 @@ def rep(str):
     n=len(str)
     count=0
     res=str[0]
-    cur_count=1
+    cur_count=0
     for i in range(n):
         if(i<n-1 and str[i]==str[i+1]):
             cur_count+=n-1
