@@ -6,8 +6,7 @@ def firstNonRepeating(arr, n):
                 break
             j += 1
         if (j == n): 
-            return arr[i] 
-      
+            return arr[i]      
     return -1
 arr = list()
 n = int(input())
